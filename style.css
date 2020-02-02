@@ -1,0 +1,108 @@
+html, body{
+  
+    padding: 0;
+    margin: 0;
+    background-color: wheat;
+}
+
+.carousel{
+    padding: 5rem;
+}
+
+.card-deck{
+    margin: auto;
+}
+.navicon{
+    height: 2vmax;
+    width: 2vmax;
+    border-radius: 1rem;
+    border: 0.002 black;
+}
+.icon{
+    height: 2vmax;
+    width: 2vmax;
+    border-radius: 1.5rem;
+    background-origin: border-box;
+  
+
+}
+.flex
+{
+    display: flex;
+    width: 200px;
+    height:200px;
+    background-color: wheat;
+}
+.box{
+    box-sizing: 50rem;
+}
+
+#photo{
+    height: 20vmax;
+    width: 20vmax;
+    background: url(https://bit.ly/2RYWIhx);
+    border-radius: 10rem;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0.25rem solid white;
+}
+
+.main{
+    max-width: 10rem;
+}
+.main2{
+ max-width: 100rem;
+ border-radius: 160rem;
+}
+.color{
+    color: white;
+}
+.white{
+    color: black;
+}
+.lbl {
+    margin: auto 0.5rem auto 0.5rem;
+    display: flex;
+    height: 1.5rem;
+    width: 3rem;
+    background: white;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: all 1s ease;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 0 white;
+}
+.cbx:checked~label:after {
+    left: 1.5rem;
+    background: white;
+}
+#carose1Examplecontrols{
+    max-width: 45vmax;
+    margin: 5rem auto;
+}
+.carousel-item img{
+    border: 5px solid rgba(0, 0, 0, 0.75)  
+}
+.chay{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsTYRJQkZ1s1ECtXf4ve7wy9Nx0ZwF09lgukgadm15nKn8fInt);
+    background-size: cover;
+}
+.cricket{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRD4PwnaE_nDRnmQHyeb4VsAyiLdhf5UZcPVyJAF7qhLCrxK3AB);
+    background-size: cover;
+}
+.indexback{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRc3aFNV3RRyuRfQHs4s3x4x4GGTSi-XsO_018ghBRdKNF0tZGW);
+    background-size: cover;
+}
+.blogback{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbx3PwxzPfXXjG816rhvNeZwFjtD9UiMmgIs4VXcqwCn_J9LEJ);
+    background-size: cover;
+}
+.indexupon{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtGfEHCsf25EncnVVbHCbVn-56caav7eoZ-hoS770iI-jWEoED);
+    background-size: cover;
+}
